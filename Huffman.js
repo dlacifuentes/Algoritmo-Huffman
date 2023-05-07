@@ -1,7 +1,11 @@
 const fs = require('fs');
+const prompt = require("prompt-sync")();
+
+//Solicitar ubicación del archivo
+let inputFile = prompt("Ingrese la ubicación del archivo ");
 
 // Leer el archivo inicial
-const originalFile = fs.readFileSync('archivoInicial.txt', 'utf8');
+const originalFile = fs.readFileSync(inputFile, 'utf8');
 
 // Construir una tabla (objeto) con la frecuencia de los caracteres contenidos en archivo.txt.
 const freqTable = {};

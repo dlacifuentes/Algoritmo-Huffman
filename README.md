@@ -8,7 +8,9 @@ Para ejecutar este proyecto debe contar con los siguientes prerrequisitos:
 * Instalar NodeJS v16.x
 
 * Instalar el paquete fs, usado para la lectura y escritura de archivos empleados en el programa.
-<pre><code>npm install fs</code></pre>
+<pre><code>npm install fs
+npm install prompt-sync
+</code></pre>
 
 * Crear archivo archivoInicial.txt con los datos a codificar (Este proyecto cuenta con un archivo de ejemplo).
 
