@@ -19,3 +19,5 @@ npm install prompt-sync
 <h3>Ejecución Algoritmo</h3>
 Luego de cumplir con los prerrequisitos ejecute el programa con el siguiente comando:
 <pre><code>node '.\Huffman.js'</code></pre>
+
+@ Autores: Juliana Ladino, Mateo Lopez, Daniela Gonzalez
