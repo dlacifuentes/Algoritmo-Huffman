@@ -7,12 +7,14 @@ Para ejecutar este proyecto debe contar con los siguientes prerrequisitos:
 
 * Instalar NodeJS v16.x
 
-* Instalar el paquete fs, usado para la lectura y escritura de archivos empleados en el programa.
+* Instalar los siguientes paquetes:
 <pre><code>npm install fs
 npm install prompt-sync
 </code></pre>
+(fs) usado para la lectura y escritura de archivos empleados en el programa.
+(prompt-sync) el programa solicita la ubicación del archivo a codificar y este método permite aceptar la entrada del usuario.
 
-* Crear archivo archivoInicial.txt con los datos a codificar (Este proyecto cuenta con un archivo de ejemplo).
+**Nota: Este proyecto cuenta con un archivo de ejemplo nombrado archivoInicial.txt**
 
 <h3>Ejecución Algoritmo</h3>
 Luego de cumplir con los prerrequisitos ejecute el programa con el siguiente comando:
